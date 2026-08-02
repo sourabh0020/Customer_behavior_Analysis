@@ -8,13 +8,6 @@ A retail dataset of 3,900 customer transactions across 18 attributes — demogra
 
 **Tech Stack:** Python (Pandas) · SQL Server (T-SQL) · Power BI
 
-## 🗂️ Repository Structure
-├── customer_shopping_behavior.csv # Raw dataset (3,900 rows × 18 columns)
-├── Customer_Sales_Analysis.ipynb # Data cleaning + feature engineering (Python)
-├── cleaned_customers.csv # Cleaned dataset exported for SQL
-├── Customer_purchasing_behaviour.sql # 10 business-question SQL queries
-├── dashboard_screenshot.png # Power BI dashboard
-└── README.md
 ## 🧾 Dataset
 
 3,900 rows × 18 columns, one row per customer transaction: `customer_id`, `age`, `gender`, `item_purchased`, `category`, `purchase_amount`, `location`, `size`, `color`, `season`, `review_rating`, `subscription_status`, `shipping_type`, `discount_applied`, `promo_code_used`, `previous_purchases`, `payment_method`, `frequency_of_purchases`.
@@ -51,11 +44,11 @@ Only `review_rating` had missing values (37 out of 3,900, ~0.95%) — all other 
 3. **Discount Behavior** — discount users spending above average (Q2); products most dependent on discounting (Q6)
 4. **Product Performance** — top-rated products (Q3), shipping type vs. spend (Q4), top 3 products per category via window function (Q8)
 
-See [`Customer_purchasing_behaviour.sql`](./Customer_purchasing_behaviour.sql) for full queries.
+See [`Customer_purchasing_behaviour.sql`](https://github.com/sourabh0020/Customer_behavior_Analysis/blob/main/SQL/Customer_purchasing_behaviour.sql) for full queries.
 
 ## 📈 Power BI Dashboard
 
-![Dashboard](./dashboard_screenshot.png)
+![Dashboard](https://github.com/sourabh0020/Customer_behavior_Analysis/blob/main/Dashboard/Screenshot.png)
 
 **KPIs:** 3.90K customers · ₹233.08K total revenue · $59.76 avg. purchase · 3.75 avg. rating
 
